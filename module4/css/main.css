@@ -1,0 +1,164 @@
+body {
+  background-image: url(../img/page-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrapper {
+  width: 950px;
+  height: 1150px;
+  margin: 100px auto;
+  padding: 60px 60px;
+  background-color: #fff;
+}
+
+h2 {
+  padding: 30px;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 32px;
+  text-transform: uppercase;
+  color: #263555;
+}
+
+h3 {
+  margin-top: -15px;
+  padding: 0;
+  font-family: "Arial";
+  font-weight: normal;
+  font-size: 15px;
+  color: #263555;
+}
+
+p {
+  padding: 0;
+  font-family: "Arial";
+  font-style: normal;
+  font-size: 13px;
+  line-height: 20px;
+  color: #000;
+}
+
+.profile {
+  width: 670px;
+  display: inline-block;
+}
+
+.image {
+  float: left;
+  margin: 0 25px 0 0;
+}
+
+.principles {
+  width: 230px;
+  vertical-align: top;
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.list {
+  margin-top: -25px;
+  counter-reset: num;
+  margin-bottom: 35px;
+}
+
+.list > li {
+  padding: 0;
+  list-style-type: none;
+  font-family: "Arial";
+  font-size: 15px;
+  color: #263555;
+}
+
+.list > li::before {
+  content: counter(num);
+  counter-increment: num;
+  color: white;
+  background: #38afe5;
+  display: inline-block;
+  text-align: center;
+  line-height: 1.8em;
+  margin: 0 17px -8px -38px;
+  border-radius: 50px;
+  width: 28px;
+  height: 28px;
+  position: relative;
+  top: 15px;
+}
+
+.offer {
+  width: 670px;
+  display: inline-block;
+}
+
+.offer > ul {
+  list-style: none;
+}
+
+.first {
+  display: inline-block;
+  margin-left: -40px;
+}
+
+.first > li {
+  font-family: "Arial";
+  margin-bottom: 7px;
+}
+
+.first > li::before {
+  content: "→";
+  color: #38afe5;
+  margin-right: 5px;
+}
+
+.second {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.second > li {
+  font-family: "Arial";
+  margin-bottom: 7px;
+}
+
+.second > li::before {
+  content: "→";
+  color: #38afe5;
+  margin-right: 5px;
+}
+
+.testimonial {
+  width: 230px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 40px;
+}
+
+.testimonial-quote {
+  width: 211px;
+  height: 219px;
+  background-image: url(../img/block.png);
+}
+
+.quote {
+  color: #263555;
+  font-family: sans-serif;
+  font-size: 15px;
+  max-width: 210px;
+  max-height: 190px;
+  text-align: left;
+  padding: 15px;
+}
+
+.quote::before {
+  content: "“ ";
+}
+
+.quote::after {
+  content: " ”";
+}
+
+.credits {
+  text-align: center;
+  margin-left: -10px;
+}

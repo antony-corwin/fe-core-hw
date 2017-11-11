@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../module-4/images/page-bg.png);
+  background-color: #39afe5;
+}
+
+header {
+  width: 100%;
+  height: 235px;
+}
+
+.wrapper {
+  width: 1024px;
+  margin: 0 auto;
+  padding: 0 60px;
+}
+
+.logo {
+  position: absolute;
+  left: 50%;
+  top: 15%;
+  transform: translate(-50%, -50%);
+  width: 140px;
+  height: 140px;
+  line-height: 140px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #fff;
+  font-family: "Dorsa", sans-serif;
+  font-size: 60px;
+  text-decoration: none;
+  color: #263555;
+  text-transform: uppercase;
+  transition: all 0.8s ease-in-out;
+}
+
+.logo:hover {
+  filter: invert(100%);
+}
+
+.fl-l,
+.fl-r {
+  text-transform: uppercase;
+  font-family: "Pathway Gothic One", sans-serif;
+  font-size: 23px;
+  position: relative;
+  top: 95px;
+}
+
+.fl-l > a {
+  position: relative;
+  left: 10px;
+  margin: 0 35px;
+  display: inline-block;
+  float: left;
+}
+
+.fl-r > a {
+  position: relative;
+  right: 10px;
+  margin: 0 35px;
+  float: right;
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  color: #fff
+}
+
+a:hover {
+  color: #263555;
+}
+
+.submenu {
+  display: none;
+}
+
+.submenu > a {
+  text-align: center;
+
+}
+
+.menu-item:hover > .submenu {
+  display: block;
+
+  background-color: #fff;
+  color: #6b7488;
+  text-align: center;
+}

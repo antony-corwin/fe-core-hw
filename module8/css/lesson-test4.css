@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+
+    width: 1024px;
+    height: 768px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+main{
+    background-color: green;
+    border: 2px solid;
+    max-width: 480px;
+    height: 100%;
+}
+
+@media screen and (min-width: 480px) {
+    main {
+        background-color: red;
+        border: 4px solid;
+        max-width: 768px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    main {
+        background-color: yellow;
+        border: 4px solid;
+        max-width: 1024px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    main {
+        background-color: blue;
+        border: 4px solid;
+        max-width: 1200px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    main {
+        background-color: lime;
+        border: 4px solid;
+
+    }
+}
