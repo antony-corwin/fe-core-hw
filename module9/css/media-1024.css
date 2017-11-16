@@ -124,7 +124,7 @@ li.menu-item:nth-child(4) {
     margin-left: 90px;
 }
 
-li.menu-item:hover>ul.submenu {
+li.menu-item:hover > ul.submenu {
     display: block;
 }
 
@@ -136,7 +136,7 @@ li.menu-item a {
     text-transform: uppercase;
 }
 
-li.menu-item>a:hover {
+li.menu-item > a:hover {
     color: #263555;
 }
 
@@ -334,7 +334,7 @@ footer {
     margin-top: 20px;
 }
 
-.social-gro up {
+.social-group {
     font-size: 0;
 }
 
@@ -497,7 +497,7 @@ h3.sign {
     margin-top: 25px;
 }
 
-h3.sign+span {
+h3.sign + span {
     width: 100%;
     text-align: center;
     display: block;
@@ -549,16 +549,6 @@ h3.sign+span {
     padding-left: 20px;
 }
 
-.details {
-    font-size: 10px;
-    color: #868f8f;
-    margin-bottom: 15px;
-}
-
-.details .comments {
-    float: right;
-}
-
 .article-top-left {
     width: 30px;
     height: 30px;
@@ -591,7 +581,7 @@ h3.sign+span {
 .tours-left {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: flex-end;
     align-content: baseline;
     width: 76%;
 }
@@ -633,8 +623,12 @@ a.details {
     flex-wrap: wrap;
 }
 
+p {
+    margin: 0;
+}
+
 p.price-name {
-    margin-top: 15px;
+    /* margin: 15px 0px; */
     font-size: 10px;
 }
 
@@ -689,8 +683,8 @@ button.details {
 }
 
 .button-search {
-    margin-top: 20px;
-    margin-bottom: 40px;
+    margin-top: 50px;
+    margin-right: 150px;
     width: 60px;
     height: 20px;
     display: inline-block;
@@ -706,7 +700,6 @@ button.details {
 
 .select {
     margin-bottom: 24px;
-    height: 100%
 }
 
 select.select {
@@ -726,20 +719,37 @@ select.select {
     padding: 5px 10px;
     text-overflow: ellipsis;
     white-space: nowrap;
-    width: 200px;
+    width: 210px;
+}
+
+h2.cancel {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 32px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    color: #263555;
+}
+
+.operators {
+    color: #38afe5;
+    font-size: 10px;
+    margin-bottom: 7px;
 }
 
 @media all and (min-width: 1024px) {
     .gallery-item:nth-child(3n+1) {
         padding-right: 10px;
     }
+
     .gallery-item:nth-child(3n+2) {
         padding-left: 5px;
         padding-right: 5px;
     }
+
     .gallery-item:nth-child(3n+3) {
         padding-left: 10px;
     }
+
     main {
         padding-left: 45px;
         padding-right: 45px;
